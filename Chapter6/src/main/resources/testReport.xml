@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "测试报告">
+    <test name = "测试报告">
+        <classes>
+            <class name="com.muke.chapter6.ExtentreportTest">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <!--<listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener>-->
+        <listener class-name="com.muke.chapter6.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>

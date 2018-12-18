@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test">
+    <test name ="Login">
+        <classes>
+            <class name="com.muke.testNg.suit.SuitConfig"/>
+            <class name="com.muke.testNg.suit.Login"/>
+        </classes>
+    </test>
+    <test name ="Pay">
+        <classes>
+            <class name="com.muke.testNg.suit.SuitConfig"/>
+            <class name="com.muke.testNg.suit.Pay"/>
+        </classes>
+    </test>
+</suite>

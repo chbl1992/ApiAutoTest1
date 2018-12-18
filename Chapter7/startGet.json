@@ -1,0 +1,32 @@
+[
+  {
+    "description":"模拟没有带参数的GET请求",
+    "request":{
+      "uri":"/withoutParamGet",
+      "method":"get"
+    },
+    "response":{
+      "text":"这是没有带参数的GET请求",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description":"模拟带参数的GET请求",
+    "request":{
+      "uri":"/withParamGet",
+      "method":"get",
+      "queries":{
+        "name":"zhangsan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "text":"这是带参数的GET请求",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  }
+]

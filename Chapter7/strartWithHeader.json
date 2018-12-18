@@ -1,0 +1,22 @@
+[
+  {
+    "description":"模拟带headers的请求",
+    "request":{
+      "uri":"/with/get/headers",
+      "method":"get",
+      "headers":{
+        "content-type":"application/json"
+      },
+      "json":{
+        "name":"wangwu",
+        "age":"187"
+      }
+    },
+    "response":{
+      "json":{
+        "wangwu":"success",
+        "status":"18"
+      }
+    }
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="thread" parallel = "classes" thread-count ="2">
+    <test name ="demo1">
+        <classes>
+            <class name = "com.muke.testNg.multiThread.MultiThreadXml"/>
+        </classes>
+    </test>
+    <test name ="demo2">
+        <classes>
+            <class name = "com.muke.testNg.multiThread.MultiThreadXml"/>
+        </classes>
+    </test>
+    <test name ="demo3">
+        <classes>
+            <class name = "com.muke.testNg.multiThread.MultiThreadXml"/>
+        </classes>
+    </test>
+</suite>

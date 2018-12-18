@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "parameter">
+    <test name = "paraTest">
+
+        <parameter name="name" value="linzhihuang"/>
+        <parameter name="age" value="10"/>
+        <classes>
+
+            <class name ="com.muke.testNg.parameter.ParameterTest"/>
+
+        </classes>
+    </test>
+</suite>
